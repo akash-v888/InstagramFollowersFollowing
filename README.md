@@ -37,3 +37,16 @@ This project is a JavaScript utility for fetching and analyzing the follower and
 
    ```js
    username = "example_username";
+   ```
+   with your actual Instagram username.
+6. Press Enter. If the placeholder username is detected, you'll be prompted to enter your username.
+
+## Rate Limiting Notice
+To avoid rate-limiting by Instagram:
+The script includes a randomized delay (100ms–500ms) between paginated requests.
+Each API request fetches 50 users at a time.
+
+## Disclaimer
+This tool is intended for educational purposes only. Accessing Instagram’s private APIs may violate their Terms of Use. Use at your own risk.
+
+
